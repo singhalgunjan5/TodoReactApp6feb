@@ -1,19 +1,15 @@
 import React from "react";
 import Typography from "@mui/joy/Typography";
 
-  
 export default function Header() {
   return (
     <div>
       <Typography level="h1" align="center" color="neutral">
         TodoList
       </Typography>
-
     </div>
   );
 }
-
-
 
 // export default function Header() {
 //   return (
@@ -24,4 +20,3 @@ export default function Header() {
 //     </ThemeProvider>
 //   );
 // }
-
